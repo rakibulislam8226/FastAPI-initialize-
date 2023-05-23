@@ -1,0 +1,11 @@
+psycopg2-binary==2.9.5
+asyncpg==0.27.0
+fastapi==0.92.0
+SQLAlchemy==2.0.4
+FastAPI-SQLAlchemy==0.2.1
+alembic==1.9.4
+python-dotenv==0.21.1
+gunicorn==20.1.0
+uvicorn==0.20.0
+shortuuid==1.0.11
+python-multipart==0.0.6
