@@ -40,8 +40,9 @@ def init_app(settings=Config) -> FastAPI:
 
     # Include routers / configure routers
 
-    # from api.views.affiliates import router as affiliate_router
-    # app.include_router(affiliate_router)
+    from api.views.items import router as items_router
+    app.include_router(items_router)
+
 
     # testing by passing welcome message
     @app.get('/')
