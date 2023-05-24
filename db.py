@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 async_engine = create_async_engine(
     Config.DATABASE_URL,
     poolclass=NullPool,
-    echo=Config.ECHO_SQL,
+    # echo=Config.ECHO_SQL,
 )
 
 AsyncSessionLocal = async_sessionmaker(

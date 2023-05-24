@@ -8,7 +8,7 @@ class Items(BaseModel):
 
     item_id = Column(String, nullable=False)
     title = Column(String(255))
-    description = Column(Text)
+    description = Column(Text, nullable=True)
     is_active = Column(Boolean, default=False)
     items_number = Column(Integer)
     ip_address = Column(String, nullable=True)
